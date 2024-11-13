@@ -1,0 +1,5 @@
+fill ~ ~ ~-1 ~ ~4 ~2 {{ customportals.portal.block }}
+fill ~ ~1 ~ ~ ~3 ~1 light[level=11]
+execute if data entity @s {Dimension:"{{ customportals.portal.dimension_a }}"} align xyz run summon armor_stand ~ ~1 ~ {Tags:["customportals","customportals.portal","customportals.z","{{ customportals.portal.dimension_a_id }}","{{ customportals.portal.dimension_b_id }}","customportals.b"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{CustomModelData:{{ customportals.portal.custom_model_data_z }}}}]}
+execute if data entity @s {Dimension:"{{ customportals.portal.dimension_b }}"} align xyz run summon armor_stand ~ ~1 ~ {Tags:["customportals","customportals.portal","customportals.z","{{ customportals.portal.dimension_a_id }}","{{ customportals.portal.dimension_b_id }}","customportals.a"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{CustomModelData:{{ customportals.portal.custom_model_data_z }}}}]}
+scoreboard players set $created_portal customportals 1

@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"from": [0, 8, -16],
+			"to": [32, 12, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#portal"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#portal"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [-38.5, -30.4, -12.81],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Custom portals",
+  "description": {"text":"Add custom portals between dimensions","color":"aqua"},
+  "author": "OliTheHoodieBoi",
+  "output": "build",
+  "data_pack": {
+    "name": "Custom portals data pack",
+    "pack_format": 10,
+    "zipped": true
+  },
+  "resource_pack": {
+    "name": "Custom portals resource pack",
+    "pack_format": 9,
+    "zipped": true,
+    "load": ["foo"]
+  },
+  "pipeline": [ "customportals" ],
+  "meta": {
+    "customportals": {
+      "portals": [
+        {
+          "dimension_a": "overworld",
+          "dimension_b": "the_end",
+          "block": "glowstone",
+          "activation": "water"
+        },
+        {
+          "dimension_a": "overworld",
+          "dimension_b": "the_nether",
+          "block": "netherite_block",
+          "activation": "lava",
+          "floor_portal": true,
+          "texture": "foo:block/portal"
+        }
+      ]
+    }
+  }
+}

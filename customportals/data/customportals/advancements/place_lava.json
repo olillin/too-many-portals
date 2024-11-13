@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "placed_block",
+            "conditions": {
+                "block": "minecraft:lava"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customportals:trigger/lava"
+    }
+}

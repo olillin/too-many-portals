@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "customportals"
+version = "0.1.0"
+description = "A Beet plugin that adds configurable portals between dimensions"
+authors = ["Oli <oli@hoodieboi.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Pillow = "^9.4.0"
+beet = "^0.84.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

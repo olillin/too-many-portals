@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "placed_block",
+            "conditions": {
+                "block": "minecraft:water"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customportals:trigger/water"
+    }
+}

@@ -1,0 +1,2 @@
+execute if entity @e[type=armor_stand,tag=customportals.target_portal,tag=customportals.a] in {{ customportals.portal.dimension_b }} run function customportals:portals/{{ customportals.portal.dimension_a_id }}/{{ customportals.portal.dimension_b_id }}/travel/find_portal
+execute if entity @e[type=armor_stand,tag=customportals.target_portal,tag=customportals.b] in {{ customportals.portal.dimension_a }} run function customportals:portals/{{ customportals.portal.dimension_a_id }}/{{ customportals.portal.dimension_b_id }}/travel/find_portal
