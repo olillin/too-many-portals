@@ -1,0 +1,3 @@
+summon armor_stand ~ ~ ~ {Tags:["too_many_portals","too_many_portals.new","too_many_portals.portal","too_many_portals.z","{{ too_many_portals.portal.dimension_a_id }}","{{ too_many_portals.portal.dimension_b_id }}","too_many_portals.b","too_many_portals.new"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{CustomModelData:{{ too_many_portals.portal.custom_model_data_z }}}}]}
+scoreboard players operation @e[type=armor_stand,tag=too_many_portals.new,distance=..0.1,limit=1] too_many_portals_version = $current too_many_portals_version
+tag @e[type=armor_stand,tag=too_many_portals.new] remove too_many_portals.new

@@ -1,0 +1,5 @@
+fill ~-1 ~ ~ ~2 ~4 ~ {{ too_many_portals.portal.block }}
+fill ~ ~1 ~ ~1 ~3 ~ light[level=11]
+execute if data entity @s {Dimension:"{{ too_many_portals.portal.dimension_a }}"} align xyz run summon armor_stand ~ ~1 ~ {Tags:["too_many_portals","too_many_portals.portal","too_many_portals.x","{{ too_many_portals.portal.dimension_a_id }}","{{ too_many_portals.portal.dimension_b_id }}","too_many_portals.b"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{CustomModelData:{{ too_many_portals.portal.custom_model_data_x }}}}]}
+execute if data entity @s {Dimension:"{{ too_many_portals.portal.dimension_b }}"} align xyz run summon armor_stand ~ ~1 ~ {Tags:["too_many_portals","too_many_portals.portal","too_many_portals.x","{{ too_many_portals.portal.dimension_a_id }}","{{ too_many_portals.portal.dimension_b_id }}","too_many_portals.a"],Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b,tag:{CustomModelData:{{ too_many_portals.portal.custom_model_data_x }}}}]}
+scoreboard players set $created_portal too_many_portals 1

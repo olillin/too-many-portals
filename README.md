@@ -1,14 +1,14 @@
-# Custom portals
+# Too Many Portals
 
-**Custom portals** is a [Beet](https://github.com/mcbeet/beet) plugin that enables you to create easily configurable portals between dimensions.
+**Too Many Portals** is a [Beet](https://github.com/mcbeet/beet) plugin that enables you to create easily configurable portals between dimensions.
 
 ## Usage
 
-Add `customportals` to your beet pipeline
+Add `too_many_portals` to your beet pipeline
 
 ## Configuration
 
-The plugin is configured in `customportals` inside `meta`
+The plugin is configured in `too_many_portals` inside `meta`
 
 ### Portals
 

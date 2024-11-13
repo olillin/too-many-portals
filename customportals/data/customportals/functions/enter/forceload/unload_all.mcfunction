@@ -1,1 +1,0 @@
-execute as @e[type=marker,tag=customportals.chunkloader] at @s run function customportals:enter/forceload/unload

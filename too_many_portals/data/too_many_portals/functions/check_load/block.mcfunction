@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #too_many_portals:empty run scoreboard players add $loaded too_many_portals 1

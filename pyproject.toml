@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "customportals"
+name = "too_many_portals"
 version = "0.1.0"
 description = "A Beet plugin that adds configurable portals between dimensions"
 authors = ["Oli <oli@hoodieboi.dev>"]

@@ -1,1 +1,0 @@
-execute unless block ~ ~ ~ #customportals:empty run scoreboard players add $loaded customportals 1

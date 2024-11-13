@@ -1,0 +1,2 @@
+execute if entity @e[type=armor_stand,tag=too_many_portals.target_portal,tag=too_many_portals.a] in {{ too_many_portals.portal.dimension_b }} run function too_many_portals:portals/{{ too_many_portals.portal.dimension_a_id }}/{{ too_many_portals.portal.dimension_b_id }}/travel/find_portal
+execute if entity @e[type=armor_stand,tag=too_many_portals.target_portal,tag=too_many_portals.b] in {{ too_many_portals.portal.dimension_a }} run function too_many_portals:portals/{{ too_many_portals.portal.dimension_a_id }}/{{ too_many_portals.portal.dimension_b_id }}/travel/find_portal

@@ -1,1 +1,0 @@
-execute at @e[type=armor_stand,tag=customportals.nearby_portals,sort=nearest,limit=1] run function customportals:portals/{{ customportals.portal.dimension_a_id }}/{{ customportals.portal.dimension_b_id }}/travel/teleport

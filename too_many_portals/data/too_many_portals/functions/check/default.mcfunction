@@ -1,0 +1,4 @@
+execute positioned ~ ~-1 ~ facing ~ ~-1 ~ run function too_many_portals:raycast/start
+execute if data storage too_many_portals {Activation:"vanilla"} at @e[type=marker,tag=too_many_portals.ray] positioned ~ ~1 ~ run function too_many_portals:check/default/vanilla
+execute if data storage too_many_portals {Activation:"water"} at @e[type=marker,tag=too_many_portals.ray] positioned ~ ~1 ~ run function too_many_portals:check/default/water
+execute if data storage too_many_portals {Activation:"lava"} at @e[type=marker,tag=too_many_portals.ray] positioned ~ ~1 ~ run function too_many_portals:check/default/lava

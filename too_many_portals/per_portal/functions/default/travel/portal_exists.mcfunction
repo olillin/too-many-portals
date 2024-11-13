@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=too_many_portals.nearby_portals,sort=nearest,limit=1] run function too_many_portals:portals/{{ too_many_portals.portal.dimension_a_id }}/{{ too_many_portals.portal.dimension_b_id }}/travel/teleport

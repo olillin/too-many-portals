@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=too_many_portals.chunkloader] at @s run function too_many_portals:enter/forceload/unload
