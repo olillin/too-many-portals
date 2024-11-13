@@ -5,12 +5,12 @@
   "output": "build",
   "data_pack": {
     "name": "Too Many Portals Data Pack",
-    "pack_format": 10,
+    "pack_format": 57,
     "zipped": true
   },
   "resource_pack": {
     "name": "Too Many Portals Resource Pack",
-    "pack_format": 9,
+    "pack_format": 42,
     "zipped": true,
     "load": ["foo"]
   },
